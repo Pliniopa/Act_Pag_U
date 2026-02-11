@@ -485,6 +485,12 @@ ul li a:hover {
     z-index: 1;
 }
 
+
+.img-a{
+    margin-left: 40%;
+    margin-right: 0%;
+}
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
