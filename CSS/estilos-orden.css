@@ -113,6 +113,75 @@ ul li a:hover {
     border-bottom: 2px solid white;
 }
 
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+
+    display: block;
+    margin: 40px auto;
+
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.formulario-pedido {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    color: white;
+}
+
+.formulario-pedido iframe {
+    border-radius: 10px;
+}
+
+.formulario-pedido h2 {
+    color: #ffb703;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+
+    text-shadow:
+        2px 2px 0px #000,
+        4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.seccion-stream {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.boton-stream {
+    display: inline-block;
+    background-color: #ffb703;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.boton-stream:hover {
+    background-color: #fb8500;
+    color: white;
+    transform: scale(1.05);
+}
+
 
 
 
@@ -169,4 +238,10 @@ ul li a:hover {
     font-size: clamp(12px, 1.5vw, 16px);
     position: relative;
     z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .formulario-pedido iframe {
+        height: 1100px;
+    }
 }
