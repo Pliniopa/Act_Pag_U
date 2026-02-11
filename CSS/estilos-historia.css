@@ -152,7 +152,8 @@ ul li a:hover {
     margin: 2% 12% 1% 12%;
     position: relative;
     z-index: 0;
-    color:rgba(255, 255, 255, 0.747)
+    color:rgba(255, 255, 255, 0.747);
+    font-size: clamp(14px, 2vw, 24px);
 }
 
 .textoDeMenu {
